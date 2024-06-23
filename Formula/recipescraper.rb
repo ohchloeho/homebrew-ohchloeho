@@ -5,11 +5,11 @@
 class Recipescraper < Formula
   desc ""
   homepage "https://github.com/ohchloeho/recipescraper"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
-    url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.1/recipescraper_0.1.1_darwin_all.tar.gz"
-    sha256 "49b7fa2c3abc26facbed55326343ffc47582f3cbf8f8a90d49df8223a9e272b5"
+    url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.2/recipescraper_0.1.2_darwin_all.tar.gz"
+    sha256 "4f9389a312f9efe426f5be073ca9da8c8976071c2586df01bd5385c40c476e8c"
 
     def install
       bin.install "recipescraper"
@@ -19,8 +19,8 @@ class Recipescraper < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.1/recipescraper_0.1.1_linux_amd64.tar.gz"
-        sha256 "d5ebeb8cbba7ec38a6df8c530823968240e9b1f72e6e75dab954c1779a26d246"
+        url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.2/recipescraper_0.1.2_linux_amd64.tar.gz"
+        sha256 "24d251bf234be5e41fe2d179edc1a975ca1e05c4c05534877f573e637be0675f"
 
         def install
           bin.install "recipescraper"
@@ -29,8 +29,8 @@ class Recipescraper < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.1/recipescraper_0.1.1_linux_arm64.tar.gz"
-        sha256 "f1b1f06e5f07561b55266bb5cbd9106a3ae6218c82df096f47cfe978cb8864bf"
+        url "https://github.com/ohchloeho/recipescraper/releases/download/v0.1.2/recipescraper_0.1.2_linux_arm64.tar.gz"
+        sha256 "fbfedd1db6d3f37267788918a7d89aef5875580b9233e158caaf2f26b02caf30"
 
         def install
           bin.install "recipescraper"
